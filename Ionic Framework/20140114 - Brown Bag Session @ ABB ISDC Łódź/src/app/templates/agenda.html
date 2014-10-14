@@ -1,0 +1,15 @@
+<ion-view title="Agenda" ng-controller="AgendaCtrl as vm">
+    <ion-content class="has-header">
+        <ion-refresher pulling-text="Pull to refresh" on-refresh="vm.loadAgenda(true)"></ion-refresher>
+        <div class="list">
+            <div ng-repeat="item in vm.agenda">
+                <div class="item item-divider item-energized">
+                    {{item.time}}
+                </div>
+                <a class="item">
+                    {{item.title}}
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

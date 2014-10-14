@@ -1,0 +1,25 @@
+<ion-view title="Speaker Info" ng-controller="SpeakerInfoCtrl as vm">
+    <ion-content class="has-header padding">
+        <!--<div class="card">-->
+            <!--<div class="item item-checkbox">-->
+                <!--<h2>{{vm.speaker.following ? "Following" : "Not Following"}}</h2>-->
+                <!--<label class="checkbox">-->
+                    <!--<input type="checkbox" ng-model="vm.speaker.following" />-->
+                <!--</label>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="card">
+            <div class="item item-toggle">
+                <h2>{{vm.speaker.following ? "Following" : "Not Following"}}</h2>
+                <label class="toggle toggle-energized">
+                    <input type="checkbox" ng-model="vm.speaker.following" />
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <h2>{{vm.speaker.name}}</h2>
+        <p>{{vm.speaker.bio}}</p>
+    </ion-content>
+</ion-view>

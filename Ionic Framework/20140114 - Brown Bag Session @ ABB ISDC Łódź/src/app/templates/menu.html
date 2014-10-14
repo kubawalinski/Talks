@@ -1,0 +1,23 @@
+<ion-side-menus>
+
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+        <ion-nav-back-button class="button-clear button-icon icon icon-ios7-arrow-back"></ion-nav-back-button>
+      <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-bar>
+    <ion-nav-view name="main-content" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left">
+    <header class="bar bar-header bar-positive">
+      <h1 class="title">Mobilization</h1>
+    </header>
+    <ion-content class="has-header">
+      <ion-list>
+        <ion-item nav-clear menu-close ui-sref="conference.agenda">Agenda</ion-item>
+        <ion-item nav-clear menu-close ui-sref="conference.speakers">Speakers</ion-item>
+        <ion-item nav-clear menu-close ui-sref="conference.device">Device</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
