@@ -1,0 +1,16 @@
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\bin\Debug\HelloWorld.XML
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\bin\Debug\FSharp.Core.dll
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\bin\Debug\FSharp.Core.xml
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\PLJAWAL3\Documents\Visual Studio 2013\Projects\ConsoleApplication1\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\bin\Debug\HelloWorld.XML
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\bin\Debug\FSharp.Core.dll
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\bin\Debug\FSharp.Core.xml
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Talks\.NET Developer Days 2014 - F#\src\HelloWorld\obj\Debug\HelloWorld.pdb
