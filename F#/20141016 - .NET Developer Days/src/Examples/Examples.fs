@@ -18,7 +18,7 @@ printfn "%A" "I don't care about the type, I just want to print it..."
 
 
 //problems with type inference
-let toHackerTalk phrase = phrase.Replace('t', '7').Replace('o', '0').Replace('e', '3')
+let toHackerTalk (phrase:string) = phrase.Replace('t', '7').Replace('o', '0').Replace('e', '3')
 printfn "%A" (toHackerTalk "Check this out!") 
 
 
@@ -36,7 +36,8 @@ let add5and3' = add' 5 3
 
 
 //we sometimes have to use parentheses
-let addSquare3To4 = add (square (3), 4)
+let square x = x*x
+let addSquare3To4 = add (square 3) 4
 
 
 
@@ -132,7 +133,7 @@ let handleTry tryResult =
     | true, value -> Some value
     | _ -> None
 
-match (System.Int32.TryParse "1a23" |> handleTry) with
+match (System.Int32.TryParse "123" |> handleTry) with
 | Some value -> printfn "It's a number with value %d." value
 | None -> printfn "It's not a number."
 
@@ -199,10 +200,13 @@ let incremented7 = inc 7
 
 //currying - order of arguments matters a lot
 let sub x y = x - y
+let invert f a b = f b a
 
-let dec = sub 1
+let dec = invert sub 1.0
 
-let decremented10 = dec 10
+
+
+let decremented10 = dec 10.0
 
 
 
@@ -213,13 +217,13 @@ let decremented10 = dec 10
 *)
 
 //Naive recursion
-let factorial x =
+let rec factorial x =
     if x <= 1 then
         1
     else
         x * factorial (x - 1)
     
-let sumList list = 
+let rec sumList list = 
     match list with
     | [] -> 0
     | x :: xs -> x + sumList xs
