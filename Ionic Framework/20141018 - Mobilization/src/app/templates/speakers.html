@@ -1,0 +1,10 @@
+<ion-view title="Speakers" ng-controller="SpeakersCtrl as vm">
+    <ion-content class="has-header">
+        <div class="list">
+            <a class="item item-icon-right" ng-repeat="speaker in vm.speakers" href="#/conference/speakers/{{speaker.id}}">
+                {{speaker.name}}
+                <i class="icon ion-chevron-right icon-accessory"></i>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

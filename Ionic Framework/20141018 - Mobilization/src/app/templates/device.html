@@ -1,0 +1,23 @@
+<ion-view title="Device" ng-controller="CordovaCtrl as vm">
+    <ion-content class="has-header">
+        <div class="card">
+            <div class="item item-divider">
+                Device Info
+            </div>
+            <div class="item">
+                Model: {{vm.model}}
+                <br />
+                UUID: {{vm.uuid}}
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                Flashlight
+            </div>
+            <div class="item">
+                <button class="button button-energized" ng-click="vm.turnOnFlashlight()">Turn On</button>
+                <button class="button button-positive" ng-click="vm.turnOffFlashlight()">Turn Off</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
