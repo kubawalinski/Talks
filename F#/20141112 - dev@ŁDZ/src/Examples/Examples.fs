@@ -12,7 +12,7 @@ let aString = "I'm a string!"
 
 //printing to stdout
 printfn "The answer is %d" 42
-printfn "A imię jego będzie... %s" "czterdzieści i cztery"
+printfn "A long time ago %s" "in a galaxy far far away"
 printfn "%A" "I don't care about the type, I just want to print it..."
 
 
@@ -70,7 +70,7 @@ let third' = trd' t1
 
 
 
-//returning tuplese from functions
+//returning tuples from functions
 let returnSelfAndSquare x = x, x*x
 
 let FiveandSquare = returnSelfAndSquare 5
@@ -200,13 +200,15 @@ let incremented7 = inc 7
 
 //currying - order of arguments matters a lot
 let sub x y = x - y
-let invert f a b = f b a
 
-let dec = invert sub 1.0
+let inverse f a b = f b a
+
+let dec = inverse sub 1
 
 
 
-let decremented10 = dec 10.0
+
+let decremented10 = dec 10
 
 
 
